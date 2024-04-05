@@ -7,7 +7,7 @@ pipeline {
                 //bat "java --version"
             }
         }
-        stage("compile java program")
+        stage("compile java program"){
             steps{
                 sh "javac SimpleJavaProj.java"
                 //bat "javac SimpleJavaProj.java"
